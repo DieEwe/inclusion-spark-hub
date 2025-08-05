@@ -1,15 +1,25 @@
 import Navbar from "@/components/Navbar";
+import VideoHeroSection from "@/components/VideoHeroSection";
+import VideoProductOverview from "@/components/VideoProductOverview";
+import VideoTargetGroups from "@/components/VideoTargetGroups";
+import VideoContent from "@/components/VideoContent";
+import ProducerSection from "@/components/ProducerSection";
+import VideoResultsSection from "@/components/VideoResultsSection";
+import VideoCustomerLogos from "@/components/VideoCustomerLogos";
+import VideoCTASection from "@/components/VideoCTASection";
 
 const Schnack2 = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-4xl font-bold text-foreground mb-4">Schnack 2</h1>
-          <p className="text-lg text-muted-foreground">Coming Soon</p>
-        </div>
-      </div>
+      <VideoHeroSection />
+      <VideoProductOverview />
+      <VideoTargetGroups />
+      <VideoContent />
+      <ProducerSection />
+      <VideoResultsSection />
+      <VideoCustomerLogos />
+      <VideoCTASection />
     </div>
   );
 };
