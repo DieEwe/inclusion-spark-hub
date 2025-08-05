@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import ProductOverview from "@/components/ProductOverview";
 import TargetGroups from "@/components/TargetGroups";
@@ -7,9 +8,10 @@ import ResultsSection from "@/components/ResultsSection";
 import CustomerLogos from "@/components/CustomerLogos";
 import CTASection from "@/components/CTASection";
 
-const TemplateA = () => {
+const Schnack1 = () => {
   return (
     <div className="min-h-screen bg-background">
+      <Navbar />
       <HeroSection />
       <ProductOverview />
       <TargetGroups />
@@ -22,4 +24,4 @@ const TemplateA = () => {
   );
 };
 
-export default TemplateA;
+export default Schnack1;
