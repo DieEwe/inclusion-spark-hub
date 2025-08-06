@@ -42,10 +42,10 @@ const VideoContent = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-section">
+    <section className="py-20" style={{background: 'linear-gradient(135deg, hsl(214 74% 96%) 0%, hsl(214 74% 98%) 100%)'}}>
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{color: 'hsl(214 74% 22%)'}}>
             Unsere Video-Services im Detail
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
@@ -58,8 +58,8 @@ const VideoContent = () => {
           {services.map((service, index) => (
             <Card key={index} className="p-8 border-0 bg-white shadow-soft hover:shadow-medium transition-all duration-300">
               <div className="text-center mb-6">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <service.icon className="w-8 h-8 text-primary" />
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style={{backgroundColor: 'hsl(214 74% 32% / 0.1)'}}>
+                  <service.icon className="w-8 h-8" style={{color: 'hsl(214 74% 32%)'}} />
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-2">
                   {service.title}
@@ -72,7 +72,7 @@ const VideoContent = () => {
               <div className="space-y-3">
                 {service.features.map((feature, featureIndex) => (
                   <div key={featureIndex} className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 flex-shrink-0 mt-0.5" style={{color: 'hsl(214 74% 32%)'}} />
                     <span className="text-sm text-muted-foreground leading-relaxed">
                       {feature}
                     </span>
@@ -86,7 +86,7 @@ const VideoContent = () => {
         {/* Einsatzmöglichkeiten */}
         <Card className="p-8 border-0 bg-white shadow-medium">
           <div className="text-center mb-8">
-            <MessageSquare className="w-12 h-12 text-primary mx-auto mb-4" />
+            <MessageSquare className="w-12 h-12 mx-auto mb-4" style={{color: 'hsl(214 74% 32%)'}} />
             <h3 className="text-2xl font-bold text-foreground mb-4">
               Vielfältige Einsatzmöglichkeiten
             </h3>
@@ -96,19 +96,19 @@ const VideoContent = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="text-center p-4 bg-accent/10 rounded-lg">
+            <div className="text-center p-4 rounded-lg" style={{backgroundColor: 'hsl(214 74% 32% / 0.1)'}}>
               <h4 className="font-semibold text-foreground mb-2">Interne Kommunikation</h4>
               <p className="text-sm text-muted-foreground">Intranet, Newsletter, Townhalls</p>
             </div>
-            <div className="text-center p-4 bg-accent/10 rounded-lg">
+            <div className="text-center p-4 rounded-lg" style={{backgroundColor: 'hsl(214 74% 32% / 0.1)'}}>
               <h4 className="font-semibold text-foreground mb-2">Schulungen & Events</h4>
               <p className="text-sm text-muted-foreground">Workshops, Aktionstage, Onboarding</p>
             </div>
-            <div className="text-center p-4 bg-accent/10 rounded-lg">
+            <div className="text-center p-4 rounded-lg" style={{backgroundColor: 'hsl(214 74% 32% / 0.1)'}}>
               <h4 className="font-semibold text-foreground mb-2">Employer Branding</h4>
               <p className="text-sm text-muted-foreground">Social Media, Karriereseiten</p>
             </div>
-            <div className="text-center p-4 bg-accent/10 rounded-lg">
+            <div className="text-center p-4 rounded-lg" style={{backgroundColor: 'hsl(214 74% 32% / 0.1)'}}>
               <h4 className="font-semibold text-foreground mb-2">Führungskommunikation</h4>
               <p className="text-sm text-muted-foreground">Präsentationen, Kampagnen</p>
             </div>

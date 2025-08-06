@@ -71,8 +71,8 @@ const VideoTargetGroups = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {targetGroups.map((group, index) => (
               <Card key={index} className="p-6 text-center hover:shadow-medium transition-all duration-300 border-0 bg-white">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <group.icon className="w-8 h-8 text-primary" />
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style={{backgroundColor: 'hsl(214 74% 32% / 0.1)'}}>
+                  <group.icon className="w-8 h-8" style={{color: 'hsl(214 74% 32%)'}} />
                 </div>
                 <h3 className="text-lg font-semibold text-foreground mb-3">
                   {group.title}
@@ -99,8 +99,8 @@ const VideoTargetGroups = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {benefits.map((benefit, index) => (
               <div key={index} className="flex gap-4">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
-                  <benefit.icon className="w-6 h-6 text-primary" />
+                <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{backgroundColor: 'hsl(214 74% 32% / 0.1)'}}>
+                  <benefit.icon className="w-6 h-6" style={{color: 'hsl(214 74% 32%)'}} />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-foreground mb-2">

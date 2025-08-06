@@ -36,10 +36,10 @@ const VideoResultsSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-section">
+    <section className="py-20" style={{background: 'linear-gradient(135deg, hsl(214 74% 96%) 0%, hsl(214 74% 98%) 100%)'}}>
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{color: 'hsl(214 74% 22%)'}}>
             Was Sie erhalten – vollständiges Paket
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
@@ -52,8 +52,8 @@ const VideoResultsSection = () => {
           {results.map((result, index) => (
             <Card key={index} className="p-6 border-0 bg-white shadow-soft hover:shadow-medium transition-all duration-300 group">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0 group-hover:bg-primary/20 transition-colors duration-300">
-                  <result.icon className="w-6 h-6 text-primary" />
+                <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 transition-colors duration-300" style={{backgroundColor: 'hsl(214 74% 32% / 0.1)'}} data-group-hover="bg-primary/20">
+                  <result.icon className="w-6 h-6" style={{color: 'hsl(214 74% 32%)'}} />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-foreground mb-2">
@@ -81,26 +81,26 @@ const VideoResultsSection = () => {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-center gap-3">
-                    <CheckCircle className="w-5 h-5 text-primary flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 flex-shrink-0" style={{color: 'hsl(214 74% 32%)'}} />
                     <span className="text-muted-foreground">Einfühlsame Interviewführung in vertrauensvoller Atmosphäre</span>
                   </li>
                   <li className="flex items-center gap-3">
-                    <CheckCircle className="w-5 h-5 text-primary flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 flex-shrink-0" style={{color: 'hsl(214 74% 32%)'}} />
                     <span className="text-muted-foreground">Professionelle Bildqualität und authentischer Storytelling-Ansatz</span>
                   </li>
                   <li className="flex items-center gap-3">
-                    <CheckCircle className="w-5 h-5 text-primary flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 flex-shrink-0" style={{color: 'hsl(214 74% 32%)'}} />
                     <span className="text-muted-foreground">Sichere Freigabeprozesse und respektvolle Darstellung</span>
                   </li>
                   <li className="flex items-center gap-3">
-                    <CheckCircle className="w-5 h-5 text-primary flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 flex-shrink-0" style={{color: 'hsl(214 74% 32%)'}} />
                     <span className="text-muted-foreground">Markenkonformes Design und sofort einsetzbare Materialien</span>
                   </li>
                 </ul>
               </div>
-              <div className="bg-accent/30 rounded-lg p-6">
+              <div className="rounded-lg p-6" style={{backgroundColor: 'hsl(214 74% 32% / 0.1)'}}>
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-primary mb-2">95%</div>
+                  <div className="text-4xl font-bold mb-2" style={{color: 'hsl(214 74% 32%)'}}>95%</div>
                   <div className="text-lg font-semibold text-foreground mb-2">
                     Kundenzufriedenheit
                   </div>
