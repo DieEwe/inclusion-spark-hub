@@ -17,10 +17,10 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 15%;
 
-    /* Primary brand color - Dark Blue for video brand */
-    --primary: 214 74% 32%;
+    /* Primary brand color - Turquoise from specifications */
+    --primary: 187 53% 48%;
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 214 74% 26%;
+    --primary-hover: 187 53% 42%;
 
     /* Professional secondary colors */
     --secondary: 215 25% 92%;
@@ -41,12 +41,12 @@ All colors MUST be HSL.
 
     --border: 215 25% 88%;
     --input: 215 25% 92%;
-    --ring: 214 74% 32%;
+    --ring: 187 53% 48%;
 
-    /* Professional gradients for video brand */
-    --gradient-hero: linear-gradient(135deg, hsl(214 74% 32%) 0%, hsl(214 64% 42%) 100%);
+    /* Professional gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(187 53% 48%) 0%, hsl(195 55% 55%) 100%);
     --gradient-section: linear-gradient(180deg, hsl(215 25% 98%) 0%, hsl(215 25% 96%) 100%);
-    --gradient-cta: linear-gradient(135deg, hsl(214 74% 26%) 0%, hsl(214 74% 32%) 100%);
+    --gradient-cta: linear-gradient(135deg, hsl(215 45% 15%) 0%, hsl(215 45% 22%) 100%);
 
     /* Professional shadows */
     --shadow-soft: 0 4px 20px -4px hsl(215 25% 15% / 0.1);

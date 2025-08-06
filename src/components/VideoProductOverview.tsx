@@ -32,8 +32,8 @@ const VideoProductOverview = () => {
               
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
-                    <Video className="w-6 h-6 text-primary" />
+                  <div className="w-12 h-12 rounded-full flex items-center justify-center" style={{backgroundColor: 'hsl(214 74% 32% / 0.1)'}}>
+                    <Video className="w-6 h-6" style={{color: 'hsl(214 74% 32%)'}} />
                   </div>
                   <div>
                     <div className="font-semibold text-foreground">Format</div>
@@ -42,8 +42,8 @@ const VideoProductOverview = () => {
                 </div>
 
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
-                    <Users className="w-6 h-6 text-primary" />
+                  <div className="w-12 h-12 rounded-full flex items-center justify-center" style={{backgroundColor: 'hsl(214 74% 32% / 0.1)'}}>
+                    <Users className="w-6 h-6" style={{color: 'hsl(214 74% 32%)'}} />
                   </div>
                   <div>
                     <div className="font-semibold text-foreground">Einsatzbereich</div>
@@ -52,8 +52,8 @@ const VideoProductOverview = () => {
                 </div>
 
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
-                    <Euro className="w-6 h-6 text-primary" />
+                  <div className="w-12 h-12 rounded-full flex items-center justify-center" style={{backgroundColor: 'hsl(214 74% 32% / 0.1)'}}>
+                    <Euro className="w-6 h-6" style={{color: 'hsl(214 74% 32%)'}} />
                   </div>
                   <div>
                     <div className="font-semibold text-foreground">Investment</div>
@@ -63,8 +63,8 @@ const VideoProductOverview = () => {
                 </div>
 
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
-                    <Clock className="w-6 h-6 text-primary" />
+                  <div className="w-12 h-12 rounded-full flex items-center justify-center" style={{backgroundColor: 'hsl(214 74% 32% / 0.1)'}}>
+                    <Clock className="w-6 h-6" style={{color: 'hsl(214 74% 32%)'}} />
                   </div>
                   <div>
                     <div className="font-semibold text-foreground">Lieferzeit</div>
